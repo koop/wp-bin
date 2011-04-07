@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+import sys, recmd
+
+def main(argv):
+	if argv:
+		recmd.run( argv[0] )
+
+if __name__ == '__main__':
+	main(sys.argv[1:])
